@@ -2,4 +2,63 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  width: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'IBM Plex Mono', serif;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 23.4px;
+  position: relative;
+}
+
+.header {
+  display: grid;
+  background-image: url('../images/cover-image-dark.png');
+}
+
+.header__rec {
+  position: absolute;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+.header__rec::after {
+  content: '';
+  height: 9px;
+  width: 9px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  box-shadow: 0 0 4px var(--accent-color);
+}
+
+.header__theme-menu {
+  justify-self: end;
+  color: var(--accent-color);
+  line-height: 18px;
+}
+
+.header__theme-menu-button {
+  background-color: transparent;
+  text-transform: lowercase;
+  text-align: center;
+}
+
+.header__title {
+  color: var(--header-and-footer-title);
+  text-shadow: 4px 4px 0 var(--accent-color);
+  font-size: 116px;
+  font-weight: bold;
+  line-height: 83%;
+  margin: 0 10px;
+}
+
+.title-decor {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+
+.header__description {
+  font-weight: bold;
+  margin: 0 10px;
 }
