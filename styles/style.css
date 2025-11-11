@@ -122,3 +122,19 @@
   gap: 10px;
   padding: 0 10px;
 }
+
+.footer {
+  height: 100vh;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-title {
+  color: var(--header-and-footer-title);
+  text-shadow: 2px 2px 0 var(--accent-color);
+  font-size: 116px;
+  font-weight: bold;
+  line-height: 83%;
+}
