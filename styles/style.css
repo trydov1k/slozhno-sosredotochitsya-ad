@@ -140,3 +140,28 @@
   font-weight: bold;
   line-height: 83%;
 }
+
+@media (width >= 768px) {
+  :root {
+    --global-padding: 20px;
+  }
+
+  .section:first-child, .section:nth-child(3) {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .section:first-child .section__block, .section:nth-child(3) .section__block  {
+    grid-column: 2;
+  }
+
+  .section__note {
+    align-self: start;
+  }
+
+}
+
+@media (width >= 1024px) {
+  :root {
+
+  }
+}

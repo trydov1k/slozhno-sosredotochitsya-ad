@@ -13,10 +13,3 @@
   --header-and-footer-title : #DB00FF;
   --global-padding: 10px;
 }
-
-@media (width >= 768) {
-  :root {
-    --global-padding: 20px;
-    --accent-color: #fff
-  }
-}
