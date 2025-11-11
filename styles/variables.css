@@ -4,8 +4,19 @@
 */
 
 :root {
+  --font-family: 'IBM Plex Mono';
+  --font-size: 18px;
+  --line-height: 23.4px;
   --background-color: #000028;
   --text-color: #F1B2CE;
   --accent-color: #FF0070;
   --header-and-footer-title : #DB00FF;
+  --global-padding: 10px;
+}
+
+@media (width >= 768) {
+  :root {
+    --global-padding: 20px;
+    --accent-color: #fff
+  }
 }
