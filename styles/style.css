@@ -14,8 +14,10 @@
 
 .header {
   display: grid;
-  grid-template-rows: 25px repeat(3, 1fr) 25px;
+  grid-template-rows: 25px 1fr min-content 1fr 25px;
   background-image: url('../images/cover-image-dark.png');
+  background-position: center;
+  background-size: cover;
   padding: var(--global-padding);
   height: 100vh;
   margin-bottom: var(--margin-after-header);
@@ -43,8 +45,8 @@
 
 .header__rec {
   position: absolute;
-  top: 18px;
-  right: 19px;
+  top: calc(var(--global-padding) + 8px);
+  right: calc(var(--global-padding) + 9px);
   inline-size: 9px;
   block-size: 9px;
   background-color: var(--accent-color);
