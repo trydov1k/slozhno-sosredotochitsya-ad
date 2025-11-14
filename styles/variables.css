@@ -13,4 +13,6 @@
   --header-and-footer-title : #DB00FF;
   --global-padding: 10px;
   --images-gap: 10px;
+  --margin-after-header: 40px;
+  --margin-before-footer: 40px;
 }
