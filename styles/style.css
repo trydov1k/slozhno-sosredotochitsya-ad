@@ -65,17 +65,18 @@
 }
 
 .header__theme-menu {
-  justify-self: end;  
+  justify-self: end;
+  align-self: center;
   color: var(--accent-color);
   line-height: 18px;
+  position: relative;
+  top: -10px;
 }
 
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  position: relative;
-  top: 40px;
 }
 
 .header__theme-menu-item {
@@ -106,8 +107,9 @@
 
 .header__description-block {
   justify-self: end;
+  align-self: center;
   position: relative;
-  top: 51px;
+  top: 10px;
 }
 
 .header__description {
