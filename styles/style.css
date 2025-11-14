@@ -150,6 +150,10 @@
   font-weight: bold;
 }
 
+.without-bold {
+  font-weight: normal;
+}
+
 .images {
   display: grid;
   grid-template-columns: 1fr;
