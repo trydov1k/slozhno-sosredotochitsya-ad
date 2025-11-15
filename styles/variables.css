@@ -4,13 +4,16 @@
 */
 
 :root {
+  --raspberry: #FF0070;
+
   --font-family: 'IBM Plex Mono';
   --font-size: 18px;
   --line-height: 23.4px;
   --background-color: #000028;
   --text-color: #F1B2CE;
-  --accent-color: #FF0070;
-  --header-and-footer-title : #DB00FF;
+  --accent-color: var(--raspberry);
+  --section-title-color: var(--raspberry);
+  --header-and-footer-title: #DB00FF;
   --main-gap: 50px;
   --global-padding: 10px;
   --images-gap: 10px;
