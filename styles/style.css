@@ -99,6 +99,19 @@
   pointer-events: none;
 }
 
+.header__theme-menu-item:hover {
+  border: 1px solid var(--hover-button-color);
+}
+
+.header__theme-menu-item:focus {
+  outline: none;
+}
+
+.header__theme-menu-item:focus-visible {
+  outline: none;
+  border-bottom: 1px solid var(--text-color);
+}
+
 .header__title {
   justify-self: start;
   align-self: center;
@@ -152,6 +165,18 @@
 
 .accent-word {
   text-shadow: 2px 1px 0 var(--accent-color);
+}
+
+.accent-word:hover {
+  text-decoration: underline;
+}
+
+.accent-word:focus {
+  outline: none;
+}
+
+.accent-word:focus-visible {
+  outline: 1px solid var(--text-color);
 }
 
 .section__note {

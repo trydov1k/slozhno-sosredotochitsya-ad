@@ -5,21 +5,14 @@
 */
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
---dark-color: #353430;
+  --dark-color: #353430;
 
   --header-and-footer-title: #FFC2E6;
   --background-color: rgba(255, 241, 247, 1);
   --text-color: var(--dark-color);
   --accent-color: rgba(255, 141, 203, 1);
   --section-title-color: var(--dark-color);
-}
-
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+  --hover-button-color: rgba(50, 49, 45, 0.4);
 }
 
 .theme-light .header {
@@ -42,6 +35,35 @@
   color: var(--text-color);
 }
 
-.theme-light .footer-title {
-  text-shadow: 2px 2px 0px var(--raspberry);
+@media (prefers-color-scheme: light) {
+  :root {
+    --dark-color: #353430;
+
+    --header-and-footer-title: #FFC2E6;
+    --background-color: rgba(255, 241, 247, 1);
+    --text-color: var(--dark-color);
+    --accent-color: rgba(255, 141, 203, 1);
+    --section-title-color: var(--dark-color);
+    --hover-button-color: rgba(50, 49, 45, 0.4);   
+  }
+
+  .theme-light .header {
+    background-image: url("../images/cover-image-light.png");
+  }
+
+  .theme-light .header__title {
+    text-shadow: 4px 4px 0px #FF8DCB;
+  }
+
+  .theme-light .header__theme-menu {
+    color: var(--dark-color);
+  }
+
+  .theme-light .header__rec {
+    display: none;
+  }
+
+  .theme-light .title-decor {
+    color: var(--text-color);
+  }
 }
