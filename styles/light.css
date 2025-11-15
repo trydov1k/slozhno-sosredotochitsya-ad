@@ -44,7 +44,7 @@
     --text-color: var(--dark-color);
     --accent-color: rgba(255, 141, 203, 1);
     --section-title-color: var(--dark-color);
-    --hover-button-color: rgba(50, 49, 45, 0.4);   
+    --hover-button-color: rgba(50, 49, 45, 0.4);
   }
 
   .theme-light .header {

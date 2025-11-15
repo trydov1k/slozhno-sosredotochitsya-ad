@@ -351,15 +351,12 @@
 
   .section:nth-child(2) .section__title {
     inline-size: 315px;
+    grid-row: 1;
+    grid-column: span 3;
   }
 
   .section:nth-child(2) {
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .section:nth-child(2) .section__title {
-    grid-row: 1;
-    grid-column: span 3;
   }
 
   .footer-title {

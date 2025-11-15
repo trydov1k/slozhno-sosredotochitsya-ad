@@ -19,10 +19,6 @@
   --hover-button-color: rgba(255, 0, 112, 0.4);
 }
 
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-}
-
 .theme-dark .header {
   background-image: url("../images/cover-image-dark.png");
 }
