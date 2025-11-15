@@ -18,7 +18,3 @@
   --header-and-footer-title: #DB00FF;
   --hover-button-color: rgba(255, 0, 112, 0.4);
 }
-
-.theme-dark .header {
-  background-image: url("../images/cover-image-dark.png");
-}

@@ -252,8 +252,17 @@
     --margin-before-footer: 60px;
   }
 
+  .header {
+    padding-left: 0;
+  }
+
+  .header__title {
+    font-size: 120px;
+    letter-spacing: 0;
+  }
+
   .header__description-block {
-    max-width: 50%;
+    max-width: calc(50% - 10px);
   }
 
   .main {
