@@ -9,6 +9,7 @@
   --font-family: 'IBM Plex Mono';
   --font-size: 18px;
   --line-height: 23.4px;
+  --background-image: url("../images/cover-image-dark.png");
   --background-color: #000028;
   --text-color: #F1B2CE;
   --accent-color: var(--raspberry);

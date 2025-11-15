@@ -11,6 +11,7 @@
   */
   --raspberry: #FF0070;
 
+  --background-image: url("../images/cover-image-dark.png");
   --background-color: #000028;
   --text-color: #F1B2CE;
   --accent-color: var(--raspberry);

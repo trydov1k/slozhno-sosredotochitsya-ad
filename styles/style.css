@@ -15,7 +15,7 @@
 .header {
   display: grid;
   grid-template-rows: 25px 1fr min-content 1fr 25px;
-  background-image: url('../images/cover-image-dark.png');
+  background-image: var(--background-image);
   background-position: center;
   background-size: cover;
   padding: var(--global-padding);
@@ -69,7 +69,7 @@
 .header__theme-menu {
   justify-self: end;
   align-self: center;
-  color: var(--accent-color);
+  color: var(--section-title-color);
   line-height: 18px;
   position: relative;
   top: -10px;
