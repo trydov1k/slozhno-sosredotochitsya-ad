@@ -11,11 +11,13 @@
   */
   --raspberry: #FF0070;
 
-  --background-image: url("../images/cover-image-dark.png");
   --background-color: #000028;
+  --title-docor-color: #000028;
   --text-color: #F1B2CE;
   --accent-color: var(--raspberry);
   --section-title-color: var(--raspberry);
   --header-and-footer-title: #DB00FF;
   --hover-button-color: rgba(255, 0, 112, 0.4);
+  --display-rec: block;
+  --bacground-image: url("../images/cover-image-dark.png");
 }

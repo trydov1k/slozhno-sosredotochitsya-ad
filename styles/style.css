@@ -15,7 +15,7 @@
 .header {
   display: grid;
   grid-template-rows: 25px 1fr min-content 1fr 25px;
-  background-image: var(--background-image);
+  background-image: var(--bacground-image);
   background-position: center;
   background-size: cover;
   padding: var(--global-padding);
@@ -44,6 +44,7 @@
 }
 
 .header__rec {
+  display: var(--display-rec);
   position: absolute;
   top: calc(var(--global-padding) + 8px);
   right: calc(var(--global-padding) + 9px);
@@ -123,7 +124,7 @@
 
 .title-decor {
   background-color: var(--accent-color);
-  color: var(--background-color);
+  color: var(--title-docor-color);
 }
 
 .header__description-block {
@@ -327,9 +328,12 @@
     grid-row: 1;
     grid-column: 3;
   }
+
   .header::after {
     grid-row: 5;
     grid-column: 1;
+    left: 20px;
+    position: relative;
   }
 
   .header__title {
